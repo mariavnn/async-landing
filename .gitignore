@@ -128,3 +128,127 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
+
+# Graphics Interchange Format
+*.gif
+
+# RAW
+*.raw
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+*.png
+
+# Animated Portable Network Graphics
+*.apng
+
+# Multiple-image Network Graphics
+*.mng
+
+# Tagged Image File Format
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
+*.svgz
+
+# Portable Document Format
+*.pdf
+
+# X BitMap
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# 3D Images
+*.3dm
+*.max
+
+
+# Node.js
+node_modules/
+
+# Logs y archivos temporales
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencias específicas de desarrollo
+.npm/
+.cypress/
+.eslintcache/
+.karma/
+.next/
+.nuxt/
+.pnp/
+.pnp.js
+storybook-static/
+coverage/
+.vscode-test/
+jest-puppeteer.config.js
+jest.config.js
+tsconfig*.json
+tslint.json
+
+# Entorno de construcción específico
+build/
+dist/
+out/
+
+# Otros archivos y directorios
+.DS_Store
+Thumbs.db
+.cache/
+.history
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Imágenes
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Archivos de configuración
+.editorconfig
+.env
+*.config.js
